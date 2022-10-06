@@ -9,16 +9,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
+  <label class="custom-control custom-checkbox">
+    <input type="checkbox" name="" id="" value="checkedValue" class="custom-control-input">
+    <span class="custom-control-indicator"></span>
+    <span class="custom-control-description"></span>
+  </label>
+  <div class="scrollToTop-btn">
+    <i class="fas fa-angle-up"></i>
+  </div>
     <header>
 <a href="#" class="brand">Jansaya</a>
 <div class="menu-btn"></div>
 <div class="navigation">
-    <a href="#">home</a>
-    <a href="#">about</a>
-    <a href="#">skills</a>
-    <a href="#">services</a>
-    <a href="#">work</a>
-    <a href="#">contact</a>
+    <a href="#main">home</a>
+    <a href="#about">about</a>
+    <a href="#skills">skills</a>
+    <a href="#services">services</a>
+    <a href="#work">work</a>
+    <a href="#contact">contact</a>
 </div>
     </header>
     <section class="main" id="main">
@@ -26,13 +34,13 @@
      <div class="animated-text">
         <h3>Teacher</h3>
         <h3>Web developer</h3>
-        <h3>Youtuber</h3>
+       
      </div>
      <a href="#">See My Work</a>
      <div class="media-icons">
-        <a href="#">fab fa-facebook</a>
-        <a href="#">fab fa-instagram</a>
-        <a href="#">fab fa-telegram</a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
      </div>
 </div>
     </section>
@@ -56,20 +64,191 @@
 
 
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
         <div class="title reveal">
-            <div class="section-title">About me</div>
+            <div class="section-title">My Skills</div>
+          </div>
+          <div class="content">
+            <div class="column col-left reveal">
+              <h2 class="content-title">My Skills an Experiences</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque cum velit repudiandae, asperiores magni nemo officia modi. Impedit, vero quae doloremque accusantium, molestias commodi saepe consequuntur eius aperiam, suscipit qui!</p>
+              <a href="#" class="btn">See My Work</a>
+            </div>
+            <div class="column col-right reveal">
+              <div class="bar">
+                <div class="info">
+                  <span>html</span>
+                  <span>80%</span>
+                </div>
+                <div class="line"><div class="line-html"></div></div>
+              </div>
+              <div class="bar">
+                <div class="info">
+                  <span>css</span>
+                  <span>70%</span>
+                </div>
+                <div class="line"><div class="line-css"></div></div>
+              </div>
+              <div class="bar">
+                <div class="info">
+                  <span>javascript</span>
+                  <span>50%</span>
+                </div>
+                <div class="line"><div class="line-javascript"></div></div>
+               
+              </div>
+            </div>
           </div>
     </section>
-    <section class="services"><div class="title reveal">
-        <div class="section-title">About me</div>
-      </div></section>
-    <section class="work"><div class="title reveal">
-        <div class="section-title">services</div>
-      </div></section>
-    <section class="contact"><div class="title reveal">
-        <div class="section-title">portfolio</div>
-      </div></section>
+    <section class="services" id="services">
+      <div class="title reveal">
+        <div class="section-title">My Services</div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem dolores consequatur quo aliquam natus nemo exercitationem iste iure voluptate ad quidem sequi ducimus repellendus incidunt quod, nobis fugiat, consequuntur dolor.</p>
+
+      </div>
+      <div class="content">
+      
+        <div class="card reveal">
+          <div class="services-icon">
+            <i class="fas fa-file-code"></i>
+          </div>
+          <div class="info">
+            <h3>Web Developer</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia consectetur amet aspernatur assumenda id facilis.</p>
+            
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="services-icon">
+            <i class="fas fa-object-group"></i>
+          </div>
+          <div class="info">
+            <h3>Teacher</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia consectetur amet aspernatur assumenda id facilis.</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="work" id="work">
+      <div class="title reveal">
+        <div class="section-title">My Work</div>
+      </div>
+      <div class="content">
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="https://avatars.mds.yandex.net/i?id=f94ae3af9b2f9a6ce6a74cf4cd59c594-5876637-images-thumbs&n=13.jpg" alt="">
+          </div>
+
+
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="https://avatars.mds.yandex.net/i?id=cd07ac6ae0e2a079f59a09d8659ffd19-4034691-images-thumbs&n=13.jpg" alt="">
+          </div>
+
+
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="https://avatars.mds.yandex.net/i?id=2e22a260329412a74db2ef8553df986a-5232263-images-thumbs&n=13.jpg" alt="">
+          </div>
+
+
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="https://avatars.mds.yandex.net/i?id=846a0faac1b916917e48eb89313299e6-5856111-images-thumbs&n=13.jpg" alt="">
+          </div>
+
+
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="https://avatars.mds.yandex.net/i?id=9a77cfbcda7f046283d99562420aff87-5875821-images-thumbs&n=13.jpg" alt="">
+          </div>
+
+
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="https://avatars.mds.yandex.net/i?id=9dff708d0472b4fe860161cf06d3b6b6-5234681-images-thumbs&n=13.jpg" alt="">
+          </div>
+
+
+        </div>
+        <div class="title reveal">
+          <a href="#" class="btn">See All</a>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="title reveal">
+        <div class="section-title">Contact me</div>
+        <div class="content">
+          <div class="row">
+            <div class="card reveal">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="info">
+                <h3>Adress</h3>
+                <span>Chirchik region </span>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="info">
+                <h3>Phone</h3>
+                <span>958092095</span>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="info">
+                <h3>Email Adress</h3>
+                <span>qwertyyunju@gmail.com</span>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="contact-icon">
+                <i class="fas fa-globe"></i>
+              </div>
+              <div class="info">
+                <h3>Website</h3>
+                <span>MyPortfolio.netlify.app</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form reveal">
+              <h3>Send Message</h3>
+              <div class="input-box">
+                <input type="text" placeholder="Name">
+              </div>
+              <div class="input-box">
+                <input type="text" placeholder="Email">
+              </div>
+              <div class="input-box">
+                <textarea  cols="80" rows="8" placeholder="Message"></textarea>
+                <div class="input-box">
+                  <input type="submit" class="send-btn">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <footer class="footer">
+      <span class="footer-title">Jansaya Saydullayeva</span>
+      <p>Copyright @2022.All Rights Reserved </p>
+    </footer>
 
     <script src="style.js"></script>
 </body>
